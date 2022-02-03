@@ -1,4 +1,8 @@
-task0.4
+#task0.4
 
-name = input('Type in your name:')
-print("Hello, " +  name +"!")
+num = int(input ('Enter a number:'))
+if num%2==0:
+    print(num, 'is even')
+else:
+    print(num, 'is odd')
+
